@@ -4,8 +4,8 @@ from rest_framework.response import Response
 from django.db.models import Avg
 from .models import Rating
 from .serializers import RatingSerializer
-from news.models import Article
-from news.serializers import ArticleSerializer
+from backend.news.models import Article
+from backend.news.serializers import ArticleSerializer
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
