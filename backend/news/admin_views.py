@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
 
-from news.models import Article
+from backend.news.models import Article
 from ratings.models import Rating
 
 @api_view(['GET'])
