@@ -45,9 +45,10 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework_simplejwt',
 
-    'backend.users',
+    
     'backend.news',
     'backend.ratings',
+    'backend.users',
 ]
 
 MIDDLEWARE = [
