@@ -5,7 +5,7 @@ from rest_framework.permissions import IsAdminUser
 from rest_framework.response import Response
 
 from backend.news.models import Article
-from ratings.models import Rating
+from backend.ratings.models import Rating
 
 @api_view(['GET'])
 @permission_classes([IsAdminUser])
