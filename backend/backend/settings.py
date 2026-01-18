@@ -44,9 +44,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 
-    'users',
-    'news',
-    'ratings',
+    'backend.users',
+    'backend.news',
+    'backend.ratings',
 ]
 
 MIDDLEWARE = [
