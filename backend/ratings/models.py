@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from news.models import Article
+from backend.news.models import Article
 
 class Rating(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
